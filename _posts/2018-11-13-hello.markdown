@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Hello, World"
+date: 2018-11-13
+categories:
+---
+
+Here is the obligatory `Hello,World` post.  
+
+Please enjoy this photograph of some elks.
+
+![elks](https://storage.googleapis.com/hardscrabble-labs-data/elks_large.jpg)
+

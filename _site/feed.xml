@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardscrabble Labs</title>
+    <description>a simple landing page</description>
+    <link>http://www.hardscrabblelabs.com/</link>
+    <atom:link href="http://www.hardscrabblelabs.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Nov 2018 21:19:32 -0500</pubDate>
+    <lastBuildDate>Tue, 13 Nov 2018 21:19:32 -0500</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>Hello, World</title>
+        <description>&lt;p&gt;Here is the obligatory &lt;code&gt;Hello,World&lt;/code&gt; post.  &lt;/p&gt;
+
+&lt;p&gt;Please enjoy this photograph of some elks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://storage.googleapis.com/hardscrabble-labs-data/elks_large.jpg&quot; alt=&quot;elks&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Nov 2018 00:00:00 -0500</pubDate>
+        <link>http://www.hardscrabblelabs.com/2018/11/13/hello.html</link>
+        <guid isPermaLink="true">http://www.hardscrabblelabs.com/2018/11/13/hello.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
