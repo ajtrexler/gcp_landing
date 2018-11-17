@@ -1,5 +1,5 @@
-### arctic fox landing page
+## Hardscrabble Labs
 
-a simple landing page to demo GCP web features
+A simple made-up landing page to test Google Cloud Platform features and other web stuff.
 
-theme by: [Camille Diez](http://diezcami.github.io/arctic-fox-theme)
+Carte theme with thanks from [these folks](https://github.com/Wiredcraft/carte)!

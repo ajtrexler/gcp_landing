@@ -1,15 +1,6 @@
-# Site settings
-title: Hardscrabble Labs
-email: adamj.trexler@gmail.com
-description: a simple landing page
-baseurl:  # the subpath of your site, e.g. /blog/
-url: http://www.hardscrabblelabs.com # the base hostname & protocol for your site
-twitter_username: # username
-github_username: # username
-
-# Build settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+---
+exclude: ['README.markdown']
+permalink: ':title'
+pygments: true
+safe: false
+title: 'Hardscrabble'
