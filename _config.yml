@@ -2,8 +2,8 @@
 title: Hardscrabble Labs
 email: adamj.trexler@gmail.com
 description: a simple landing page
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.hardscrabblelabs.com" # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+url: http://www.hardscrabblelabs.com # the base hostname & protocol for your site
 twitter_username: # username
 github_username: # username
 
