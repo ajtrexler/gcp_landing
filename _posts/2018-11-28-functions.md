@@ -1,9 +1,9 @@
 ---
-title: 'About'
+title: 'Cloud Functions'
 
 layout: nil
 ---
 
 ## Cloud Functions
 
-75 versions later; a cloud function receives a commit webhook from github and auto-updates my `gs` bucket?
+78 versions later; a cloud function receives a commit webhook from github and auto-updates my gs (google cloud storage) bucket that serves this website!  automation FTW!
