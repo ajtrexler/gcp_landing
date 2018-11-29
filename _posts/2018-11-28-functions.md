@@ -1,6 +1,8 @@
 ---
 title: 'Cloud Functions'
-
+category: Stuff
+path: '/stuff/:id'
+type: 'RANDO'
 layout: nil
 ---
 
