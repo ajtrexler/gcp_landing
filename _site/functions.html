@@ -1,3 +1,5 @@
 <h2 id="cloud-functions">Cloud Functions</h2>
 
 <p>78 versions later; a cloud function receives a commit webhook from github and auto-updates my gs (google cloud storage) bucket that serves this website!  automation FTW!</p>
+
+<p>Script is uploaded <a href="https://github.com/ajtrexler/rando/blob/master/cloudfunc_gcp_landing.py">here</a>, which is a simple parser of the json payload github webhooks send.  Since I just want to detect any changes to the repo, and on the github side I’m triggering whenever a new commit is pushed, I don’t need to actually parse much of the payload.  The SHA-1 signature checker uses a shared secret key entered on the github side and loaded as an environmental var on the GCP side.  Finally the actual file upload is somewhat clumsy, it just re-copies every object in the repo to the GCP bucket.  From the command line there are better ways to do this, for example gsutil rsync, but the mechanics of deploying that from within the cloud function were more annoying than I wanted to deal with this…</p>
